@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* common
+-----------------------------------------------------------------*/
+#page{
+	width: 300%;
+}
+#wrapper{
+	height: 100%;
+}
+.sec{
+	height: 100%;
+	float: left;
+	position: relative;
+	width: 33%; /* js制御 */
+}

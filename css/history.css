@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* history
+-----------------------------------------------------------------*/
+#wrapper h1 {
+    width: 175px;
+    margin: 0 auto;
+}
+#history .main{
+	box-sizing: border-box;
+	padding: 22px 15px;
+}
+#wrapper ul li {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px dashed #ccc;
+    position: relative;
+}
+#wrapper ul {
+    margin-top: 22px;
+    border-top: 1px dashed #ccc;
+}
+#wrapper ul li span.txt {
+	letter-spacing: 2px;
+    padding: 17px 0;
+    position: relative;
+    background: #fff;
+    display: block;
+    text-align: center;
+    width: 100%;
+    z-index: 5000;
+}
+#wrapper ul li span.img {
+	box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 15%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 100;
+}
+#wrapper ul li span.img img{
+	width: 20px;
+}
+#wrapper ul li span.arw {
+	box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 16px 5px;
+    text-align: right;
+    z-index: 10000;
+}
+#wrapper ul li span.arw img{
+	width: 5px;
+	height: 14px;
+}

@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/*
+ colors
+	background-color: #f9f6c9;
+	color: #e6bd68;
+	background-color: #e78ba0;
+*/
+
+/* common
+-----------------------------------------------------------------*/
+html, body, #page{
+	height: 100%;
+}
+
+/* wrapper
+-----------------------------------------------------------------*/
+#wrapper{
+	height: 100%;
+	word-wrap: break-word;
+}
+#wrapper .addHeader{
+	background: url(/common/img/background.png) repeat 0 0;
+	background-size: 18px auto;
+	box-sizing: border-box;
+	height: 100%;
+	padding: 70px 0;
+	position: relative;
+	width: 100%;
+}
+#wrapper .main{
+	background: #fff;
+	height: 100%;
+	overflow-y: scroll;
+}
+/* iPhone 5 */
+@media only screen and (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2){
+	#wrapper .addHeader{
+		padding: 50px 0;
+	}
+}
+/* iPhone 4 */
+@media only screen and (device-height: 480px) and (-webkit-min-device-pixel-ratio: 2){
+	#wrapper .addHeader{
+		padding: 50px 0;
+	}
+}
+
+/* footer
+-----------------------------------------------------------------*/
+footer{
+	box-sizing: border-box;
+	bottom: 24px;
+	color: #e6bd68;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+footer p{
+	background: #fff;
+	display: inline-block;
+}
+/* iPhone 5 */
+@media only screen and (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2){
+	footer{
+		bottom: 15px;
+	}
+}
+/* iPhone 4 */
+@media only screen and (device-height: 480px) and (-webkit-min-device-pixel-ratio: 2){
+	footer{
+		bottom: 15px;
+	}
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* common
+-----------------------------------------------------------------*/
+#wrapper .info h1{
+	margin-bottom: 40px;
+	width: 180px;
+}
+.info input[type="image"]{
+	margin: 20px auto 0;
+}
+.info fieldset ul{
+	margin-top: 20px;
+}
+.info fieldset ul:first-child{
+	margin-top: 0;
+}
+#wrapper .main a:link{
+	display: block;
+	margin-top: 40px;
+}
+
+/* 追加2014-12-22 */
+.info a:last-child>img{
+	width: 37px;
+}

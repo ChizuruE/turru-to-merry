@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+/* top
+-----------------------------------------------------------------*/
+#top{
+	background: url(../img/main_background.png) no-repeat 0 0;
+	background-size: 100% auto;
+}
+#top form{
+	position: relative;
+}
+#top .balloon{
+	background: #ccc;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 250%;
+	height: 130px;
+	left: 50px;
+	padding-top: 40px;
+	position: absolute;
+	text-align: center;
+	top: -70px;
+	width: 180px;
+}
+#top .hitsuji{
+	display: block;
+	margin: 80% auto 0;
+	width: 230px;
+}
+#top span{
+	display: block;
+	margin: -50px auto 0;
+	position: relative;
+	width: 100%;
+}
+#top span .dust{
+	left: 20px;
+	position: absolute;
+	top: 0;
+	width: 100px;
+}
+#top span .aitem{
+	position: absolute;
+	right: 20px;
+	top: 14px;
+	width: 110px;
+}
+#top ul{
+	background-color: #e78ba0;
+	border-radius: 4px;
+	overflow: hidden;
+	margin: 120px auto 0;
+	padding: 12px 0;
+	width: 70%;
+}
+#top li{
+	border-left: 1px solid #fff;
+	color: #fff;
+	float: left;
+	text-align: center;
+	text-shadow: 1px 1px 2px #C87587;
+	width: 33%;
+}
+#top li:first-child{
+	border: none;
+}
+#top li.select{
+	color: #F6ED65;
+}
+/* iPhone 5 */
+@media only screen and (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2){
+	.hitsuji{
+		margin-top: 70% !important;
+	}
+}
+/* iPhone 4 */
+@media only screen and (device-height: 480px) and (-webkit-min-device-pixel-ratio: 2){
+	.hitsuji{
+		margin-top: 65% !important;
+		width: 200px !important;
+	}
+	#top span .dust{
+		left: 10px;
+		top: -24px;
+		width: 80px;
+	}
+	#top span .aitem{
+		right: 10px;
+		top: -10px;
+		width: 90px;
+	}
+	#top ul{
+		margin-top: 70px;
+		position: relative;
+		z-index: 1000;
+	}
+}

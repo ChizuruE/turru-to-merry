@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+/* info
+-----------------------------------------------------------------*/
+.info{
+	box-sizing: border-box;
+	padding: 25px 35px;
+}
+.info h1{
+	margin: 5px auto 0;
+}
+.info form{
+	margin-top: 40px;
+}
+.info fieldset ul{
+	border-bottom: 1px solid #e6bd68;
+}
+.info fieldset ul li{
+	background-color: #f9f6c9;
+	border-top: 1px solid #efd793;
+	padding: 12px 0 12px 40px;
+	position: relative;
+}
+.info fieldset ul li.confirm{
+	border-top: 1px dashed #efd793 !important;
+}
+.info fieldset ul li span{
+	display: inline-block;
+	width: 50px;
+}
+.info fieldset ul li span.txt{
+	width: 50%;
+	margin-left: 24px;
+}
+.info fieldset ul li input[type="text"],
+.info fieldset ul li input[type="password"]{
+	border: 1px solid #efd793;
+	border-radius: 4px;
+	color: #927841;
+	font-size: 72%;
+	margin-left: 20px;
+	padding: 11px 12px;
+	width: 50%;
+}
+.info fieldset ul li.radio{
+	padding-bottom: 25px;
+}
+.info fieldset ul li.radio span{
+	margin-top: 26px;
+}
+.info fieldset ul li.radio div{
+	display: inline-block;
+	margin-left: 20px;
+	vertical-align: top;
+}
+.info fieldset ul li.radio p{
+	font-size: 72%;
+}
+.info fieldset ul li.radio label{
+	display: block;
+	font-size: 150%;
+	margin-top: 6px;
+}
+.info fieldset ul li.radio label input{
+	display: inline-block;
+	margin-right: 5px;
+	position: static !important;
+	vertical-align: middle;
+}
+.info input[type="image"]{
+	display: block;
+	margin: 30px auto 0;
+	width: 100px;
+}
+.info .btns{
+	margin-top: 30px;
+	text-align: center;
+}
+.info .btns input[type="image"]{
+	display: inline-block;
+	margin: 0;
+}
+.info .btns input[type="image"]:last-child{
+	margin-left: 20px;
+}
+/* iPhone 5 */
+@media only screen and (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2){
+	.info fieldset li{
+		padding-left: 30px;
+	}
+}
+/* iPhone 4 */
+@media only screen and (device-height: 480px) and (-webkit-min-device-pixel-ratio: 2){
+	.info fieldset li{
+		padding-left: 25px;
+	}
+}

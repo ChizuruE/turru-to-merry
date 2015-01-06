@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* common
+-----------------------------------------------------------------*/
+p.er{
+	padding: 20px 0 0;
+}
+#wrapper h1 {
+    width: 180px;
+    margin: 10px auto;
+    text-align: center;
+}

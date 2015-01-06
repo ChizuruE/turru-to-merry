@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* common
+-----------------------------------------------------------------*/
+#wrapper .info h1{
+	width: 180px;
+}
+.info fieldset ul li span{
+	font-size: 80%;
+	width: 100px;
+}
+.info fieldset ul li{
+	padding-left: 10px;
+}
+.info fieldset ul li input[type="text"],
+.info fieldset ul li input[type="password"]{
+	margin-left: 0;
+}
+
+/* 追加2014-12-22 */
+.info a:last-child>img{
+	width: 37px;
+}

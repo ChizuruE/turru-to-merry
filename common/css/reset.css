@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/*
+ * reset.css
+ *
+**/
+
+/* for-ms
+-----------------------------------------------------------------*/
+@-ms-viewport{
+	width: device-width;
+}
+
+/* reset
+-----------------------------------------------------------------*/
+*{
+	font-size: 100%;
+}
+html{
+	margin: 0;
+	overflow: scroll;
+	padding: 0;
+}
+body{
+	border: 0;
+	color: #927841;
+	font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	font-family: mplus-1p-thin;
+	font-size: 12px;
+/*	font-size: 100%;*/
+	font-size: 70%;/*turru専用*/
+	line-height: 1.5;
+	letter-spacing: 2px;/*touchmove */
+	margin: 0;
+	padding: 0;
+}
+a,a:link{
+	border: 0;
+	color: #927841;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+	vertical-align: baseline;
+}
+a:hover{
+	text-decoration: none;
+}
+/*
+a:visited{
+	color: #;
+}
+a:active{
+	color: #;
+}
+*/
+div,dl,dt,dd,form,img,li,ol,p,span,strong,table,tr,th,td,u,ul{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+br{
+	letter-spacing: 0;
+}
+h1,h2,h3,h4,h5,h6,em{
+	border: 0;
+	font-style: normal;
+	font-weight: normal;
+	height: auto;
+	margin: 0;
+	max-width: 100%;
+	padding: 0;
+	vertical-align: baseline;
+	width: 100%;
+}
+img{
+	height: auto;
+	max-width: 100%;
+	vertical-align: top;
+	width: 100%;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ul,ol,li,dl,dt,dd{
+	list-style-type: none;
+}
+form,input,select,textarea{
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+fieldset{
+	border: none;
+	margin: 0;
+	padding: 0;
+}

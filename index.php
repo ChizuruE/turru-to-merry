@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="css/top.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/data.css" media="all">
 	<script src="/common/js/jquery-2.1.0.min.js"></script>
-	<script src="js/index.js"></script>
+<!--	<script src="js/index.js"></script>-->
 	<script>
 		$(function(){
 		});

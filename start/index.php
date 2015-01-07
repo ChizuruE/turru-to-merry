@@ -10,9 +10,9 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="http://mplus-fonts.sourceforge.jp/webfonts/mplus_webfonts.css">
-	<link rel="stylesheet" type="text/css" href="/common/css/reset.css" media="all">
-	<link rel="stylesheet" type="text/css" href="css/index.css" media="all">
-	<script src="/common/js/jquery-2.1.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/reset.css" media="all">
+	<link rel="stylesheet" type="text/css" href="/css/start.css" media="all">
+	<script src="/js/jquery-2.1.0.min.js"></script>
 	<script>
 		$(function(){
 		});

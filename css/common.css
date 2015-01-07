@@ -20,7 +20,7 @@ html, body, #page{
 	word-wrap: break-word;
 }
 #wrapper .addHeader{
-	background: url(/common/img/background.png) repeat 0 0;
+	background: url(/img/background.png) repeat 0 0;
 	background-size: 18px auto;
 	box-sizing: border-box;
 	height: 100%;

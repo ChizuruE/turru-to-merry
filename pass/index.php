@@ -1,6 +1,6 @@
 <?php 
 	session_start();
-	include_once('../'."controller/chkSession.php");
+	// include_once('../'."controller/chkSession.php");
 	include_once('../'."controller/setting.php");
  ?>
 
@@ -16,11 +16,11 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="http://mplus-fonts.sourceforge.jp/webfonts/mplus_webfonts.css">
-	<link rel="stylesheet" type="text/css" href="/common/css/reset.css" media="all">
-	<link rel="stylesheet" type="text/css" href="/common/css/common.css" media="all">
-	<link rel="stylesheet" type="text/css" href="/common/css/info.css" media="all">
-	<link rel="stylesheet" type="text/css" href="css/index.css" media="all">
-	<script src="/common/js/jquery-2.1.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/reset.css" media="all">
+	<link rel="stylesheet" type="text/css" href="/css/common.css" media="all">
+	<link rel="stylesheet" type="text/css" href="/css/info.css" media="all">
+	<link rel="stylesheet" type="text/css" href="/css/pass.css" media="all">
+	<script src="/js/jquery-2.1.0.min.js"></script>
 	<script>
 		$(function(){
 		});
@@ -31,7 +31,7 @@
 	<div id="wrapper">
 		<div class="addHeader">
 			<div class="main info">
-				<h1><img src="img/title_setting_2.png" width="100%" height="auto" alt="NEW USER"></h1>
+				<h1><img src="/img/title_setting_2.png" width="100%" height="auto" alt="NEW USER"></h1>
 				<form action="./" method="POST">
 					<fieldset>
 						<ul>
@@ -53,13 +53,13 @@
 						</ul>
 					</fieldset>
 					<input type="hidden" name="flag" value="2">
-					<input type="image" src="img/btn_setting_5.png" alt="確定">
+					<input type="image" src="/img/btn_setting_5.png" alt="確定">
 				</form>
-				<a href="../setting/index.php"><img src="/setting/img/btn_back_2.png" alt="" width="37px" height="52px"></a>
+				<a href="../setting/index.php"><img src="/img/btn_back_2.png" alt="" width="37px" height="52px"></a>
 			</div><!-- /.main -->
 		</div><!-- /.addHeader -->
 	</div><!-- /#wrapper -->
-	<?php include_once($_SERVER['DOCUMENT_ROOT'].'/common/inc/footer.php'); ?>
+	<?php include_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
 </div><!-- /#page -->
 </body>
 </html>

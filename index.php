@@ -16,20 +16,28 @@
 	<link rel="stylesheet" type="text/css" href="/css/history.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/css/top.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/css/data.css" media="all">
+	<script type="text/javascript" src="/js/flipsnap.js"></script>
 	<script src="/js/jquery-2.1.0.min.js"></script>
 <!--	<script src="js/index.js"></script>-->
 	<script>
 		$(function(){
 		});
+
+		$(function(){
+    		Flipsnap('.flipsnap');
+		})
 	</script>
 </head>
 <body>
 <div id="page">
-	<div id="wrapper" class="cf">
+	<div id="wrapper" class="cf" class="viewport">
+		<div class="flipsnap">
 	
-	<?php include_once($_SERVER['DOCUMENT_ROOT'].'/inc/history.php'); ?>
-	<?php include_once($_SERVER['DOCUMENT_ROOT'].'/inc/top.php'); ?>
-	<?php include_once($_SERVER['DOCUMENT_ROOT'].'/inc/data.php'); ?>
+		<?php include_once($_SERVER['DOCUMENT_ROOT'].'/inc/history.php'); ?>
+		<?php include_once($_SERVER['DOCUMENT_ROOT'].'/inc/top.php'); ?>
+		<?php include_once($_SERVER['DOCUMENT_ROOT'].'/inc/data.php'); ?>
+
+		</div>
 	
 	</div><!-- /#wrapper -->
 </div><!-- /#page -->

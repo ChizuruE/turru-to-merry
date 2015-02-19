@@ -14,3 +14,20 @@
 	position: relative;
 	width: 33%; /* js制御 */
 }
+
+
+.viewport {
+	width: 320px;
+	overflow: hidden;
+}
+
+.flipsnap {
+	width: 960px; /* 320px(item width) * 3(item count) */
+}
+.flipsnap:after {
+
+}
+
+.item {
+	float: left;
+}

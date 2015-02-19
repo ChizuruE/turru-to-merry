@@ -1,4 +1,4 @@
-<div id="top" class="sec">
+<div id="top" class="sec item">
 	<form action="">
 		<span class="balloon">3日経過</span>
 		<input type="image" src="/img/hituzi_1.png" value="0" class="hitsuji">

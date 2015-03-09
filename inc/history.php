@@ -1,4 +1,4 @@
-<div id="history" class="sec">
+<div id="history" class="sec item" >
 <div class="addHeader">
                 <div class="main">
                     <h1><img src="/img/title_history.png" alt=""></h1>

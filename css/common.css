@@ -20,11 +20,8 @@ html, body, #page{
 	word-wrap: break-word;
 }
 #wrapper .addHeader{
-	background: url(/img/background.png) repeat 0 0;
-	background-size: 18px auto;
 	box-sizing: border-box;
 	height: 100%;
-	padding: 70px 0;
 	position: relative;
 	width: 100%;
 }
@@ -50,16 +47,15 @@ html, body, #page{
 -----------------------------------------------------------------*/
 footer{
 	box-sizing: border-box;
-	bottom: 24px;
 	color: #e6bd68;
-	left: 0;
-	position: absolute;
 	text-align: center;
-	width: 100%;
 }
 footer p{
-	background: #fff;
+    background: url(/img/background.png) repeat;
+    background-size: 18px auto;
 	display: inline-block;
+    padding: 29px 0;
+    width: 100%;
 }
 /* iPhone 5 */
 @media only screen and (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2){

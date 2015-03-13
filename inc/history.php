@@ -1,7 +1,9 @@
 <div id="history" class="sec item" >
 <div class="addHeader">
+             <h1>
+                 <img src="/img/title_history.png" alt="">
+             </h1>
                 <div class="main">
-                    <h1><img src="/img/title_history.png" alt=""></h1>
                     <ul>
                         <li>
                             <span class="txt">12月4日　木曜日　長め うで</span>

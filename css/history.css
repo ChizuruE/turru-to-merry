@@ -2,25 +2,30 @@
 
 /* history
 -----------------------------------------------------------------*/
-#wrapper h1 {
+#wrapper #history h1 {
+    text-align: center;
+    margin: 0 auto;
+    background: url(../img/background.png) repeat;
+    background-size: 18px auto;
+}
+#wrapper #history h1 img{
     width: 175px;
+    padding: 20px 0;
     margin: 0 auto;
 }
 #history .main{
 	box-sizing: border-box;
-	padding: 22px 15px;
+	padding: 5px 15px;
 }
-#wrapper ul li {
-    width: 100%;
+#wrapper #history ul li {
     overflow: hidden;
     border-bottom: 1px dashed #ccc;
     position: relative;
 }
-#wrapper ul {
-    margin-top: 22px;
+#wrapper #history ul {
     border-top: 1px dashed #ccc;
 }
-#wrapper ul li span.txt {
+#wrapper #history ul li span.txt {
 	letter-spacing: 2px;
     padding: 17px 0;
     position: relative;

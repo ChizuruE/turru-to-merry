@@ -1,6 +1,7 @@
 <div id="top" class="sec item">
 	<form action="">
 		<span class="balloon">3日経過</span>
+        <img src="img/poo_icon.png" alt="" />
 		<input type="image" src="/img/hituzi_1.png" value="0" class="hitsuji">
 	</form>
 	<span>
